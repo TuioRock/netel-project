@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*Menu de cima*/
+
+nav#links-uteis {
+    display: flex;
+    height: 80px;
+    border-radius: 5px;
+    width: 65vw;
+    margin: 20px auto;
+    justify-content: space-between;
+    background-color: #222222;
+    padding: 10px 0;
+
+}
+nav#links-uteis ul>li {
+    display: inline-block;
+    padding-top: 20px;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+nav#links-uteis ul>li>a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+section#banner{
+    height: 500px;
+    background: url('../assets/images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+section#banner h1{
+    text-align: center;
+    text-decoration: none;
+    padding-top: 250px;
+    font-size: 60px;
+    color: white;
+}
+
+
+
+article#nossa h1{
+    padding-top: 50px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 20px;
+    font-size: 45px;
+    color: white;
+}
+
+nav#equipes{
+    display: flex;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 25px;
+    justify-content: space-between;
+}
+
+nav#equipes article>h1{
+    padding-top: 25px;
+    padding-left: 150px;
+    background-size: 100%;
+}
+
+nav#equipes article>h2{
+    padding-top: 10px;
+    text-align: center;
+}
+nav#equipes article>h3{
+    font-size: 15px;
+    margin: 30px;
+    text-align: center;
+}
+
+nav#equipes article>h4{
+    padding-left: 95px;
+}
+
+
+#eqp1, #eqp2{
+    border-radius: 50%;
+}
+#eqp3{
+    border-radius: 50%;
+}
+
+
+.eqp{
+    background-color: transparent;
+    padding: 20px;
+    font-weight: bold;
+    width: 400px;
+    height: 400px;
+}
+
+.btn{
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid transparent;
+    padding: 10px;
+    border-radius: 5px;
+
+    color: white;
+    padding-left: 75px;
+    font-size: 1.2rem;
+    
+}
+
+.btn-outlined{
+    border-color: white;
+}
+
+.box-red{
+    background-color: #C12700;
+    padding: 0px;
+    color: white;
+}
+
+.box-green{
+    background-color: #009987;
+    padding: 0px;
+    color: white;
+}
+
+.box-yellow{
+    background-color: #FFAA00;
+    padding: 0px;
+    color: white;
+}
+
+
+body#tudo{
+    background-color: #101010;
+}
+
+nav{
+    color: white;
+}
